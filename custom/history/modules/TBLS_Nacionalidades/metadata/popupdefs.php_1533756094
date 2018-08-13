@@ -1,0 +1,25 @@
+<?php
+$popupMeta = array (
+    'moduleMain' => 'TBLS_Nacionalidades',
+    'varName' => 'TBLS_Nacionalidades',
+    'orderBy' => 'tbls_nacionalidades.name',
+    'whereClauses' => array (
+  'name' => 'tbls_nacionalidades.name',
+),
+    'searchInputs' => array (
+  0 => 'tbls_nacionalidades_number',
+  1 => 'name',
+  2 => 'priority',
+  3 => 'status',
+),
+    'listviewdefs' => array (
+  'NAME' => 
+  array (
+    'width' => '32%',
+    'label' => 'LBL_NAME',
+    'default' => true,
+    'link' => true,
+    'name' => 'name',
+  ),
+),
+);
